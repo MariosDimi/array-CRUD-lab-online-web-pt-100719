@@ -3,23 +3,23 @@ def create_an_empty_array
 end
 
 def create_an_array
-  
+  puppies = ["Huskies","terrier","poodle","foxs"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  puppies << "yorkshire"
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  puppies.unshift("halls")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  foxs = puppies.pop
 end
 
 def remove_element_from_start_of_array(array)
-  
+  halls = puppies.shift
 end
 
 def retrieve_element_from_index(array, index_number)
